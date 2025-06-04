@@ -1,0 +1,35 @@
+ - pseudo class : define a special state of element
+     -syntax : selector:pseudo-class {
+  property: value;
+}
+-Grid: used to element in row and column,where we can fix the column width
+- Flexbox: used to element in row and column,where we can fix the column width
+      -Grid container - the parent(container) <div> element to display a Grid
+          -Grid element
+          -Gap - used to set space between row and column
+      -Grid items - the items inside the  container <div>
+  -linear gradient : It is used to set combination of color as background
+
+   -Animation in CSS: Animation propert will be ,    Animation: animation-name duration  
+        -define animation using@keyframes
+        -Animation libraries :
+            -animate-style: https://animate.style/
+            -AOS animation : https://michalsnik.github.io/aos/
+          -locomotive scroll
+        -web hosting : web server
+            -Netlify
+            -github pages
+            -vercel
+
+
+
+
+
+            GIT hub
+
+1.GIT : used to control version of a code
+2.GIT commands:
+       -git status: used to checck status of git inside folder
+       -git init : used to create/intialize git repository in a post
+       -git add . : used to track all untracked files to git
+            

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!--font font-awesome-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!--animate style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Portfolio</title>
+    <!--Aos animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!--header-->
+        <nav>
+            <!--logo-->
+            <img class="logo" src="./images/insta.jpeg" alt="logo">
+            <!--links-->
+            <ul>
+                <li class="list-items"><a class="links" href="">Home</a></li>
+                <li class="list-items"><a class="links" href="">About</a></li>
+                <li class="list-items"><a class="links" href="">Skills</a></li>
+                <li class="list-items"><a class="links" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!--Home-->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__pulse" id="username">I'am Angle <span id="lname">Maria</span></h1>
+                <p id="user-details">this is my official portfolio website to describe all<br>Details and work
+                    experience in web development
+                </p>
+                <a id="download" href="./images/arjunmanoj_fisat (1).pdf" download>DOWNLOAD CV</a>
+
+            </div>
+            <div class="home-img">
+                <img id="shape" class="group1" src="./images/shape.png" alt="shape">
+                <img id="girl" class="group1" src="./images/businesslady.png" alt="girl">
+            </div>
+        </section>
+        <!--about-->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+                <div class="aboutBody">
+                    <div data-aos="fade-right" class="aboutImage">
+                        <img class="img1" src="./images/myself-icon-design-free-vector.jpg" alt="">
+                    </div>
+                    <div class="aboutContent">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eligendi recusandae alias
+                            totam? Nihil repudiandae cum sunt, asperiores laboriosam delectus molestiae doloribus
+                            soluta. Ab, obcaecati! Quam cum eaque magni et.</p>
+                        <div class="information">
+                            <div class="infobox">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Angle Maria</span>
+                            </div>
+                            <div class="infobox">
+                                <i class="fa-solid  fa-phone"></i>
+                                <span>123456789</span>
+                            </div>
+                            <div class="infobox">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>abc@123</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--skilss-->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressBar">
+                    <!--progress bar-->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercentage">82%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar htmlBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercentage">80%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar cssBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercentage">62%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar jsBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">React</h3>
+                        <span class="barPercentage">72%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar reactBar"></div>
+                    </div>
+                </div>
+
+
+
+                <div data-aos="fade-left" class="skillImag">
+                    <img class="mySkill" src="./images/Image20250530112445.jpg" alt="skills">
+                </div>
+
+            </div>
+
+        </section>
+        <!--contact-->
+
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contact</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+
+            <!--icon-->
+            <div class="iconCollections">
+
+                <!--linkedin-->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/arjun221189manoj" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <!--facebook-->
+                <div class="icon">
+                    <a href="https://www.facebook.com/yourprofile" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <!--Watsapp-->
+                <div class="icon">
+                    <a href="https://wa.me/yourwhatsapplink" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <p id="copyright">&copy; My portfolio website-June 2024, All RightsReserved to &reg; Maria Joe </p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+<!--Aos aos cdn script-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
