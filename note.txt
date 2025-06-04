@@ -32,4 +32,5 @@
        -git status: used to checck status of git inside folder
        -git init : used to create/intialize git repository in a post
        -git add . : used to track all untracked files to git
+       -git commit -m : use to strore /save tracked file to git
             
